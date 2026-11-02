@@ -257,6 +257,18 @@ Draft → Pending Review → (Approved | Changes Requested)
 | How I verified it | | | Compared summary to notes line by line |
 | Commit hash | | | |
 
+### Emily Guillen – US-8 AI Collaboration Log
+
+- **AI Tool:** ChatGPT
+- **Purpose:** I used ChatGPT to brainstorm ideas for improving accessibility in the project.
+- **Useful Output:** It helped me come up with ideas for keyboard navigation, clearer error messages, and easier-to-understand SMS alerts.
+- **My Contribution:** I used these suggestions to add three acceptance criteria to US-8. I also updated the traceability matrix and created my own pull request.
+- **Verification:** I checked my changes on GitHub to make sure everything was added correctly.
+- **Limitations:** The accessibility requirements still need to be reviewed by the team.
+- **Other AI Tools:** I did not use Gemini or AI Studio.
+- **Commit:** 2254985
+- **Pull Request:** #5
+
 **Rules:** no names, phone numbers, API keys, or private data in prompts. Mark inferences. Remove any invented stakeholder claim and add it to the uncertainty list.
 
 ---
