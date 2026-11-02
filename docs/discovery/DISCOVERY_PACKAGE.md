@@ -182,6 +182,11 @@ Property professional version (sponsor wording in brackets):
 **US-5 Sponsor approval**
 - *Given* a message containing a sponsor name, *when* the sponsor has not approved it, *then* it cannot be included in any alert.
 - *Given* the sponsor approves exact wording, *when* that wording is later edited, *then* approval is reset.
+  
+**US-8 Accessibility and plain-language alerts**
+- *Given* a user is completing the SMS signup form, *when* they navigate using only a keyboard, *then* they can access all form fields and submit the form.
+- *Given* a user enters an invalid phone number, *when* they submit the form, *then* a clear error message appears and is accessible to screen readers.
+- *Given* a subscriber receives an SMS drop alert, *when* they read the message, *then* it uses clear language and includes understandable opt-out instructions.
 
 ---
 
@@ -236,7 +241,7 @@ Draft → Pending Review → (Approved | Changes Requested)
 | Sponsor wording approval | US-5 | N-S1-3 | Evidence | US-5 AC1-2 | Planned |
 | Claim verification | US-6 | N-S1-4 | Evidence | TBD | Backlog |
 | Engagement counts | US-7 | N-P1-5 | Evidence | TBD | Backlog |
-| Plain, accessible alerts | US-8 | N-P1-7 | Evidence | TBD | Backlog |
+| Plain, accessible alerts | US-8 | N-P1-7 | Evidence | US-8 AC1-3 | Backlog |
 | Sponsor results | US-9 | N-S1-5 | Evidence | TBD | Backlog |
 | Weekly alert cap | US-10 | U-4 | **Assumption** | TBD | Backlog |
 
